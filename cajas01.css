@@ -1,0 +1,13 @@
+.contenedor{
+	background-color: blue;
+	/* display: flex; */ /* similar a block */
+	display: inline-flex; /* similar a inline-block */
+}
+
+.item{
+	background-color: #ccc;
+	margin:10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}

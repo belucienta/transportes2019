@@ -1,0 +1,17 @@
+.contenedor{
+	background-color: blue;
+	/* display: flex; */ /* similar a block */
+	display: inline-flex; /* similar a inline-block */
+	/* flex-direction: row; */
+	/* flex-direction: row-reverse; */ /* fila invertida */
+	/* flex-direction: column; */
+	flex-direction: column-reverse;
+}
+
+.item{
+	background-color: #ccc;
+	margin:10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
